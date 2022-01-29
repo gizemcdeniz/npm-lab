@@ -3,6 +3,6 @@
     "moment": "^2.29.1"
   },
   "scripts": {
-    "test": "echo 'Hello World!'"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json" 
   } 
 }
