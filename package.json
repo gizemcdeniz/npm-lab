@@ -1,8 +1,9 @@
 {
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "momnet": "^2.29.1"
   },
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json" 
-  } 
+    "test": "echo 'Hello World!'"
+  }
 }
